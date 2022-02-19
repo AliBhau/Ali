@@ -137,3 +137,48 @@ margin-left: 30px;
   background-color: #54bab9;
   padding: 40px 0 20px;
 }
+
+@media only screen and (max-width:740px){
+
+  .top-container {
+    background-color: #54bab9;
+    padding-top: 200px;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    
+  }
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+  }
+  .mountain {
+    height: 250px;
+  }
+  .top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 135px;
+  }
+  .intro {
+    width: 50%;
+    margin: auto;
+  }
+  .skill-row {
+    width: 60%;
+  }
+  h3 {
+    margin-right: 25px;
+  }
+  .contact-me h2 {
+    margin-right: 25px;
+  } 
+  .Contact-message {
+    width: 50%;
+  }
+  .bottom-container{
+    margin-left: auto;
+  }
+
+
+}
